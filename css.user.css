@@ -1,13 +1,13 @@
 /* ==UserStyle==
 @name remove watrbx 2 branding
 @namespace https://github.com/muserlogiccpu
-@version 0.0.2
+@version 0.0.3
 @description reverts all the watrbx 2 branding to roblox and makes the site look less bloated in a way
 @author muser
 @license MIT
 @preprocessor default
 ==/UserStyle== */
-@-moz-document url-prefix("*://waterblocks.xyz/") {
+@-moz-document domain("waterblocks.xyz") {
 img[src="/scare/phantomfreddy.gif"] {
     display: none !important; /* freddy poof */
 }
